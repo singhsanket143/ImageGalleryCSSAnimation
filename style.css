@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200');
 h1{
 	text-align: center;
-	font-family: Raleway;
-	color: #344995e;
+	font-family: Lato;
+	color: red;
 }
 .container {
 	display: flex;
@@ -14,7 +14,7 @@ div.item{
 	float: left;
 	overflow: hidden;
 	margin: 10px 1%;
-	min-width: 220px;
+	min-width: 210px;
 	max-width: 310px;
 	width: 100%;
 	background-color: #000000;
@@ -40,7 +40,7 @@ div.item i {
 	width: 60px;
 	height: 60px;
 	line-height: 60px;
-	background: #ffffff;
+	background: white;
 	/**/
 	transform: translate(-50%,-50%) scale(0);
 	transition: transform 300ms 0ms cubic-bezier(0.6, -0.28, 0.735,0.045);
